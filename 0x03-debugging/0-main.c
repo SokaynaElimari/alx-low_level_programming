@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-int i;
-i = 0;
-positive_or_negative(i);
-return (0);
+^I^I^I^Iint i;
+^I^I^I^Ii = 0
+^I^I^Ipositive_or_negative(i);
+^I^Ireturn (0);
 }
