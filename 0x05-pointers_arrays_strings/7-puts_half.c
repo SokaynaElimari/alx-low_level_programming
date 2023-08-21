@@ -1,16 +1,20 @@
 #include "main.h"
 /**
  * _strlen - returns the length of a string
- * @s: string
- * Return: length
+ * @str: The string to be treated
+ * Return: void
  */
-int _strlen(char *s)
+void puts2(char *str)
 {
-int longi = 0;
-while (*s != '\0')
+int i;
+int j = 0;
+while (str[j] != '\0')
 {
-longi++;
-s++;
+j++;
 }
-return (longi);
+for (i = 0; i < j; i += 2)
+{
+_putchar(str[i]);
+}
+_putchar('\n');
 }
